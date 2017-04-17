@@ -1,0 +1,8 @@
+prefix=/home/ernie/Desktop/didi-competition/Didi-competition-solution/install
+
+Name: velodyne_driver
+Description: Description of velodyne_driver
+Version: 1.2.0
+Cflags: -I/home/ernie/Desktop/didi-competition/Didi-competition-solution/install/include
+Libs: -L/home/ernie/Desktop/didi-competition/Didi-competition-solution/install/lib -lvelodyne_input
+Requires: diagnostic_updater dynamic_reconfigure nodelet roscpp tf velodyne_msgs

@@ -1,0 +1,8 @@
+prefix=/home/ernie/Desktop/didi-competition/Didi-competition-solution/devel
+
+Name: didi_challenge_ros
+Description: Description of didi_challenge_ros
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/ernie/Desktop/didi-competition/Didi-competition-solution/devel/lib 
+Requires: 

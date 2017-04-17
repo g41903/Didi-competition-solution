@@ -1,0 +1,8 @@
+prefix=/home/ernie/Desktop/didi-competition/Didi-competition-solution/devel
+
+Name: didi_proposal
+Description: Description of didi_proposal
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ernie/Desktop/didi-competition/Didi-competition-solution/devel/lib 
+Requires: 

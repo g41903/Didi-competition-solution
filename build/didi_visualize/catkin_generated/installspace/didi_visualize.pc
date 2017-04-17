@@ -1,0 +1,8 @@
+prefix=/home/ernie/Desktop/didi-competition/Didi-competition-solution/install
+
+Name: didi_visualize
+Description: Description of didi_visualize
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/ernie/Desktop/didi-competition/Didi-competition-solution/install/lib 
+Requires: 

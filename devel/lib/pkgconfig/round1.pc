@@ -1,0 +1,8 @@
+prefix=/home/ernie/Desktop/didi-competition/Didi-competition-solution/devel
+
+Name: round1
+Description: Description of round1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ernie/Desktop/didi-competition/Didi-competition-solution/devel/lib 
+Requires: 

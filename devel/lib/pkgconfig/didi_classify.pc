@@ -1,0 +1,8 @@
+prefix=/home/ernie/Desktop/didi-competition/Didi-competition-solution/devel
+
+Name: didi_classify
+Description: Description of didi_classify
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ernie/Desktop/didi-competition/Didi-competition-solution/devel/lib 
+Requires: 
