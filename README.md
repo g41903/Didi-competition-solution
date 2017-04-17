@@ -1,3 +1,5 @@
+This repository was forked from omgteam/Didi-competition-solution
+
 # DiDi competition 
 
 [Here](https://www.udacity.com/didi-challenge) you can find more info about the challenge. 
@@ -31,6 +33,14 @@ First install ROS velodyne drivers in https://github.com/ros-drivers/velodyne.gi
 `$ roslaunch didi_visualize display_rosbag_rviz.launch rosbag_file:=PATH/NAME.bag`
 
 This module is borrowed from https://github.com/jokla/didi_challenge_ros.
+
+### Simple ROS Example (Doing)
+Write a simple script to subscribe the msgs from the sensors' topics and publish to new topics, you can reference ./src/round1/scripts/img_example.py
+To test the script, this is how to replay the bags in loops:
+`$ rosbag play PATH/NAME.bag -l`
+This is how to run the single script which subscribe and publish images topics:
+`$ rosrun round1 img_example.py`
+It will show 'subscribe imgs successfully'
 
 ### Object detection (Doing)
 To detect cars, we use lidar and radar sensor info to generate proposals, then project into 2D image and classify target type(car, pedestrian, cyclist, background) and regress to targets. This kind of solution can handle object detection within range of 170 meters.
